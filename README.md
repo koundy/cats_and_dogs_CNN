@@ -17,6 +17,7 @@ Here i used the architecture implemented in the paper Very Deep Convolutional Ne
 
 I have divided the 25k images into 90 % traing set and 10 % validation set. I could obtain 97.4 % accuracy using this code on the validation dataset which is pretty good.
 
+![vgg_cats_and_dogs](https://cloud.githubusercontent.com/assets/4981114/23499303/9a957666-ff51-11e6-8ea2-c3a3f5d71f7a.png)
 
 ## Code
 
