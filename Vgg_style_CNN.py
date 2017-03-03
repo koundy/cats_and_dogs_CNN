@@ -65,7 +65,7 @@ for f in dog_files:
     except:
         continue
    
-###################################
+
 # Prepare train & test samples
 ###################################
 
@@ -95,7 +95,7 @@ img_aug.add_random_rotation(max_angle=25.)
 # Define network architecture
 ###################################
 
-# Input is a 32x32 image with 3 color channels (red, green and blue)
+# Input is a 128 x 128 image with 3 color channels (red, green and blue)
 network = input_data(shape=[None, size_image, size_image, 3],
                      data_preprocessing=img_prep,
                      data_augmentation=img_aug)
