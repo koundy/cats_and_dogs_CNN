@@ -10,7 +10,7 @@ I have used cats and dogs dataset from kaggle [https://www.kaggle.com/c/dogs-vs-
 
 Here i used the architecture implemented in the paper Very Deep Convolutional Networks for Large-Scale Image Recognition [http://arxiv.org/pdf/1409.1556]. Except for the following two changes.
 
-1. Reduced the depth of the network by removing last layer of convulutions
+1. Reduced the depth of the network by removing last layer of convolutions.
 2. Used batch normalization technique[https://arxiv.org/abs/1502.03167] in every layer for better performence.
 
 ## Results
